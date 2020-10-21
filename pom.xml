@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.geekbang.flink</groupId>
+    <artifactId>geektime-flink</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <flink.version>1.11.1</flink.version>
+        <scala.binary.version>2.11</scala.binary.version>
+    </properties>
+    <modules>
+        <module>lab-3-datastream-api</module>
+        <module>lab-4-stateful-compute</module>
+        <module>lab-5-table-api-with-sql</module>
+        <module>lab-6-flink-runtime</module>
+        <module>project-1-pv-uv-computing</module>
+        <module>project-2-fraud-detection</module>
+        <module>project-2-fraud-detection/webapp</module>
+    </modules>
+
+</project>
